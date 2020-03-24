@@ -401,6 +401,10 @@ li{
 .fa-facebook-square:hover{
   color: #4267b2;
 }
+
+.fa-twitter-square:hover{
+  color: #1E91D9;
+}
 /*End about*/
 
 /*Start services*/
@@ -576,43 +580,14 @@ li{
   background-color: #313534;
 
 }
+
+.wagon:hover{
+  color: #F91115;
+  opacity: 1;
+}
 /*End timeline*/
 
 /*Start contact*/
-/*form{
-  width: 70%;
-  margin: 0 auto;
-}
-
-form label{
-  font-size: 1.5rem;
-}
-
-input,
-select,
-textarea{
-  width: 100%;
-  padding: 1rem;
-  margin-bottom: 5px;
-  border: none;
-  outline-color: #fd57bf;
-}
-
-input[type="submit"]{
-  width: initial;
-  background-color: #fd57bf;
-  color: #eee;
-  padding: 1rem 2rem;
-  border-radius: .8rem;
-  cursor: pointer;
-  transition: background-color 650ms;
-}
-
-input[type="submit"]:hover{
-  color: #221e3f;
-  background-color: #ffe838;
-}*/
-
 .contact-link{
   color: #fd57bf;
   margin-bottom: 10px;
