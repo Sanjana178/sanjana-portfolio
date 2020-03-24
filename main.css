@@ -30,6 +30,7 @@ a{
 
 p{
   font-size: 1.8rem;
+  line-height: 2.8rem;
   font-weight: 300;
 }
 
@@ -41,6 +42,13 @@ img{
 
 /*Start reusable*/
 
+.pink{
+  font-size: 3rem;
+  font-family: 'The Historia Demo', sans-serif;
+  color: #fd57bf;
+  opacity: 0.8;
+}
+
 .container{
   width: 90%;
   max-width: 120rem;
@@ -51,7 +59,7 @@ img{
 
 .section-heading{
   text-align: center;
-  margin-bottom: 10rem;
+  margin-bottom: 12rem;
 }
 
 .section-details{
@@ -257,6 +265,7 @@ li{
 }
 
 .about-heading h1{
+  font-family: 'The Historia Demo', sans-serif;
   color: #fd57bf;
   font-size: 10rem;
   opacity: 0.3;
@@ -468,6 +477,10 @@ li{
  .portfolio-img{
   width: 50rem;
   flex: 1;
+ }
+
+ .portfolio-img:hover{
+  cursor: pointer;
  }
 
 .portfolio-description{
