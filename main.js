@@ -1,3 +1,13 @@
+$(document).ready(function() {
+//Preloader
+preloaderFadeOutTime = 1000;
+function hidePreloader() {
+var preloader = $('.spinner-wrapper');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+});
+
 $(document).ready(function(){
   $('.menu-toggler').on('click', function(){
     $(this).toggleClass('open');
@@ -34,4 +44,5 @@ $(document).ready(function(){
   });
 
 });
+
 
