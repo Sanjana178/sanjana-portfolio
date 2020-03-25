@@ -35,7 +35,7 @@ p{
 }
 
 img{
-  width: 100%;
+  width: 100% !important;
 }
 
 /*End global*/
@@ -481,6 +481,7 @@ li{
  .portfolio-img{
   width: 50rem;
   flex: 1;
+  border-radius: 2% !important;
  }
 
  .portfolio-img:hover{
@@ -895,8 +896,9 @@ li{
   }
 
   .portfolio-img{
-    margin: 0 0 2rem 0;
+    margin: 0;
     order: 1;
+    width: 100%;
   }
 
   .portfolio-description{
@@ -910,10 +912,6 @@ li{
 
   .timeline .date::before{
     font-size: 1.4rem;
-  }
-
-  form{
-    width: 100%;
   }
 
   .up{
